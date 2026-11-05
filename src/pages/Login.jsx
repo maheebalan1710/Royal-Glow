@@ -31,7 +31,7 @@ export default function Login() {
 
     setLoading(true);
     try {
-      const loggedUser = await login(email, password);
+      const loggedUser = await login(email.trim().toLowerCase(), password);
       // Route based on role
       if (loggedUser.role === 'Admin') {
         navigate('/reports');

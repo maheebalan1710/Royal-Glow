@@ -57,9 +57,9 @@ export default function Register() {
     setLoading(true);
     try {
       await register({
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
+        name: formData.name.trim(),
+        email: formData.email.trim().toLowerCase(),
+        phone: formData.phone.trim(),
         password: formData.password,
         role: formData.role
       });
