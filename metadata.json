@@ -1,0 +1,6 @@
+{
+  "name": "Salon & Spa Booking System (Project 21)",
+  "description": "Full-stack MERN internal marks project with role-based access for Admin, Receptionist, Service Provider, and Customer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
